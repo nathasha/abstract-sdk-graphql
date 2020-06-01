@@ -1,0 +1,17 @@
+{
+  "name": "abstract-sdk-graphql",
+  "version": "0.1",
+  "private": true,
+  "scripts": {
+    "start": "node -r dotenv/config index.js"
+  },
+  "dependencies": {
+    "abstract-sdk": "^8.0.0-beta.30",
+    "apollo-server": "^2.14.1",
+    "graphql": "^15.0.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0"
+  }
+}
